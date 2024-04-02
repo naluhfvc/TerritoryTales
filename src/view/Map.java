@@ -64,17 +64,31 @@ public class Map {
 		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\jonas\\Downloads\\RuneTerraMap.png"));
 		frame.getContentPane().add(lblNewLabel);
 		
-		JTextArea txtrChampions = new JTextArea();
-		txtrChampions.setText("CHAMPIONS");
-		txtrChampions.setForeground(Color.WHITE);
-		txtrChampions.setFont(new Font("Dubai", Font.BOLD, 23));
-		txtrChampions.setBackground(Color.BLACK);
-		txtrChampions.setBounds(21, 10, 150, 43);
-		frame.getContentPane().add(txtrChampions);
-		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\jonas\\Downloads\\SonnaIcon.png"));
-		lblNewLabel_1.setBounds(25, 63, 120, 100);
+		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+		lblNewLabel_1.setBounds(25, 70, 120, 100);
 		frame.getContentPane().add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("");
+		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+		lblNewLabel_2.setBounds(25, 189, 120, 100);
+		frame.getContentPane().add(lblNewLabel_2);
+		
+		JLabel lblNewLabel_3 = new JLabel("");
+		lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+		lblNewLabel_3.setBounds(25, 330, 120, 100);
+		frame.getContentPane().add(lblNewLabel_3);
+		
+		JLabel label = new JLabel("");
+		label.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+		label.setBounds(25, 453, 120, 100);
+		frame.getContentPane().add(label);
+		
+		JLabel lblNewLabel_4 = new JLabel("CHAMPIONS");
+		lblNewLabel_4.setFont(new Font("Kristen ITC", Font.BOLD, 20));
+		lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_4.setForeground(new Color(255, 255, 255));
+		lblNewLabel_4.setBounds(10, 20, 150, 31);
+		frame.getContentPane().add(lblNewLabel_4);
 	}
 }
