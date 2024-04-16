@@ -27,7 +27,7 @@ public enum TipoPersonagem {
         if (imageURL != null) {
             return new ImageIcon(imageURL);
         } else {
-            System.err.println("Icon resource not found: " + iconeNomeArquivo);
+            System.err.println("Imagem não encontrada:" + iconeNomeArquivo);
             return null;
         }
     }
