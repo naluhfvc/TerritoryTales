@@ -207,6 +207,41 @@ public class Map {
 				}
 			}
 		});
+		
+		JLabel lblIonia = new JLabel("Ionia");
+		lblIonia.setHorizontalAlignment(SwingConstants.CENTER);
+		lblIonia.setForeground(Color.WHITE);
+		lblIonia.setFont(new Font("Kristen ITC", Font.BOLD, 20));
+		lblIonia.setBounds(706, 73, 150, 31);
+		frame.getContentPane().add(lblIonia);
+		
+		JLabel lblguasDeSentina = new JLabel("<html><p><center>Águas<br> de<br> Sentina</center></p></html>");
+		lblguasDeSentina.setHorizontalAlignment(SwingConstants.CENTER);
+		lblguasDeSentina.setForeground(Color.WHITE);
+		lblguasDeSentina.setFont(new Font("Kristen ITC", Font.BOLD, 14));
+		lblguasDeSentina.setBounds(723, 250, 150, 87);
+		frame.getContentPane().add(lblguasDeSentina);
+		
+		JLabel lblShurima = new JLabel("Shurima");
+		lblShurima.setHorizontalAlignment(SwingConstants.CENTER);
+		lblShurima.setForeground(Color.WHITE);
+		lblShurima.setFont(new Font("Kristen ITC", Font.BOLD, 20));
+		lblShurima.setBounds(373, 378, 150, 31);
+		frame.getContentPane().add(lblShurima);
+		
+		JLabel lblDemacia = new JLabel("Demacia");
+		lblDemacia.setHorizontalAlignment(SwingConstants.CENTER);
+		lblDemacia.setForeground(Color.WHITE);
+		lblDemacia.setFont(new Font("Kristen ITC", Font.BOLD, 20));
+		lblDemacia.setBounds(228, 203, 150, 31);
+		frame.getContentPane().add(lblDemacia);
+		
+		JLabel lblFreljord = new JLabel("Freljord");
+		lblFreljord.setHorizontalAlignment(SwingConstants.CENTER);
+		lblFreljord.setForeground(Color.WHITE);
+		lblFreljord.setFont(new Font("Kristen ITC", Font.BOLD, 20));
+		lblFreljord.setBounds(203, 61, 150, 31);
+		frame.getContentPane().add(lblFreljord);
 		ac5.setBounds(807, 381, 35, 35);
 		frame.getContentPane().add(ac5);
 		
