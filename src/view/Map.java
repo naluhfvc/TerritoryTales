@@ -63,113 +63,514 @@ public class Map {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JButton btn4 = new JButton("");
-		btn4.addActionListener(new ActionListener() {
+		JButton fj4 = new JButton("");
+		fj4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (personagem == 1) {
-					btn4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+					fj4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
 				}
 				else if (personagem == 2) {
-					btn4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+					fj4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
 				}
 				else if (personagem == 3) {
-					btn4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+					fj4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
 				}
 				else if (personagem == 4) {
-					btn4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+					fj4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
 				}
 			}
 		});
 		
-		JButton btn3 = new JButton("");
-		btn3.addActionListener(new ActionListener() {
+		JButton fj3 = new JButton("");
+		fj3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (personagem == 1) {
-					btn3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+					fj3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
 				}
 				else if (personagem == 2) {
-					btn3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+					fj3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
 				}
 				else if (personagem == 3) {
-					btn3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+					fj3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
 				}
 				else if (personagem == 4) {
-					btn3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+					fj3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
 				}
 			}
 		});
 		
-		JButton btn2 = new JButton("");
-		btn2.addActionListener(new ActionListener() {
+		JButton fj2 = new JButton("");
+		fj2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (personagem == 1) {
-					btn2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+					fj2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
 				}
 				else if (personagem == 2) {
-					btn2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+					fj2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
 				}
 				else if (personagem == 3) {
-					btn2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+					fj2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
 				}
 				else if (personagem == 4) {
-					btn2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+					fj2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
 				}
 			}
 		});
 		
 				
-		JButton btn1 = new JButton("");
-		btn1.addActionListener(new ActionListener() {
+		JButton fj1 = new JButton("");
+		fj1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (personagem == 1) {
-					btn1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+					fj1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
 				}
 				else if (personagem == 2) {
-					btn1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+					fj1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
 				}
 				else if (personagem == 3) {
-					btn1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+					fj1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
 				}
 				else if (personagem == 4) {
-					btn1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+					fj1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
 				}
 			}
 		});
-		btn1.setBounds(214, 90, 60, 60);
-		frame.getContentPane().add(btn1);
-		btn2.setBounds(275, 90, 60, 60);
-		frame.getContentPane().add(btn2);
-		btn3.setBounds(336, 90, 60, 60);
-		frame.getContentPane().add(btn3);
-		btn4.setBounds(397, 90, 60, 60);
-		frame.getContentPane().add(btn4);
 		
-		JButton btn5 = new JButton("");
-		btn5.addActionListener(new ActionListener() {
+		JButton sh2 = new JButton("");
+		sh2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (personagem == 1) {
-					btn5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+					sh2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
 				}
 				else if (personagem == 2) {
-					btn5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+					sh2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
 				}
 				else if (personagem == 3) {
-					btn5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+					sh2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
 				}
 				else if (personagem == 4) {
-					btn5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+					sh2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
 				}
 			}
 		});
-		btn5.setBounds(458, 90, 60, 60);
-		frame.getContentPane().add(btn5);
+		
+		JButton io1 = new JButton("");
+		io1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					io1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					io1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					io1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					io1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		
+		JButton dm3 = new JButton("");
+		dm3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					dm3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					dm3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					dm3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					dm3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		
+		JButton ac5 = new JButton("");
+		ac5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					ac5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					ac5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					ac5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					ac5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		ac5.setBounds(807, 381, 35, 35);
+		frame.getContentPane().add(ac5);
+		
+		JButton ac3 = new JButton("");
+		ac3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					ac3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					ac3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					ac3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					ac3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		ac3.setBounds(779, 336, 35, 35);
+		frame.getContentPane().add(ac3);
+		
+		JButton ac4 = new JButton("");
+		ac4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					ac4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					ac4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					ac4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					ac4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		ac4.setBounds(821, 336, 35, 35);
+		frame.getContentPane().add(ac4);
+		
+		JButton ac2 = new JButton("");
+		ac2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					ac2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					ac2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					ac2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					ac2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		ac2.setBounds(736, 336, 35, 35);
+		frame.getContentPane().add(ac2);
+		
+		JButton ac1 = new JButton("");
+		ac1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					ac1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					ac1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					ac1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					ac1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		ac1.setBounds(762, 381, 35, 35);
+		frame.getContentPane().add(ac1);
+		dm3.setBounds(327, 233, 35, 35);
+		frame.getContentPane().add(dm3);
+		
+		JButton dm1 = new JButton("");
+		dm1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					dm1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					dm1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					dm1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					dm1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		dm1.setBounds(240, 233, 35, 35);
+		frame.getContentPane().add(dm1);
+		
+		JButton dm2 = new JButton("");
+		dm2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					dm2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					dm2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					dm2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					dm2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		dm2.setBounds(284, 233, 35, 35);
+		frame.getContentPane().add(dm2);
+		
+		JButton dm4 = new JButton("");
+		dm4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					dm4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					dm4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					dm4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					dm4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		dm4.setBounds(258, 278, 35, 35);
+		frame.getContentPane().add(dm4);
+		
+		JButton dm5 = new JButton("");
+		dm5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					dm5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					dm5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					dm5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					dm5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		dm5.setBounds(303, 278, 35, 35);
+		frame.getContentPane().add(dm5);
+		io1.setBounds(746, 148, 35, 35);
+		frame.getContentPane().add(io1);
+		
+		JButton io4 = new JButton("");
+		io4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					io4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					io4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					io4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					io4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		io4.setBounds(807, 103, 35, 35);
+		frame.getContentPane().add(io4);
+		
+		JButton io2 = new JButton("");
+		io2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					io2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					io2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					io2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					io2.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+			}
+		);
+		io2.setBounds(719, 103, 35, 35);
+		frame.getContentPane().add(io2);
+		
+		JButton io3 = new JButton("");
+		io3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					io3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					io3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					io3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					io3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		io3.setBounds(762, 103, 35, 35);
+		frame.getContentPane().add(io3);
+		
+		JButton io5 = new JButton("");
+		io5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					io5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					io5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					io5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					io5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		io5.setBounds(789, 148, 35, 35);
+		frame.getContentPane().add(io5);
+		sh2.setBounds(427, 408, 35, 35);
+		frame.getContentPane().add(sh2);
+		
+		JButton sh5 = new JButton("");
+		sh5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					sh5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					sh5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					sh5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					sh5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		sh5.setBounds(451, 453, 35, 35);
+		frame.getContentPane().add(sh5);
+		
+		JButton sh3 = new JButton("");
+		sh3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					sh3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					sh3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					sh3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					sh3.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		sh3.setBounds(470, 408, 35, 35);
+		frame.getContentPane().add(sh3);
+		
+		JButton sh1 = new JButton("");
+		sh1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					sh1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					sh1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					sh1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					sh1.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		sh1.setBounds(383, 408, 35, 35);
+		frame.getContentPane().add(sh1);
+		
+		JButton sh4 = new JButton("");
+		sh4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					sh4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					sh4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					sh4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					sh4.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		sh4.setBounds(406, 453, 35, 35);
+		frame.getContentPane().add(sh4);
+		fj1.setBounds(214, 90, 35, 35);
+		frame.getContentPane().add(fj1);
+		fj2.setBounds(258, 90, 35, 35);
+		frame.getContentPane().add(fj2);
+		fj3.setBounds(301, 90, 35, 35);
+		frame.getContentPane().add(fj3);
+		fj4.setBounds(240, 135, 35, 35);
+		frame.getContentPane().add(fj4);
+		
+		JButton fj5 = new JButton("");
+		fj5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (personagem == 1) {
+					fj5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SonnaIcon.png"));
+				}
+				else if (personagem == 2) {
+					fj5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\SeraphineIcon.png"));
+				}
+				else if (personagem == 3) {
+					fj5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\ThreshIcon.png"));
+				}
+				else if (personagem == 4) {
+					fj5.setIcon(new ImageIcon("C:\\Users\\jonas\\OneDrive\\Documentos\\TerritoryTales\\src\\image\\MordekaiserIcon.png"));
+				}
+			}
+		});
+		fj5.setBounds(284, 135, 35, 35);
+		frame.getContentPane().add(fj5);
 		
 		
-		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setBounds(170, 0, 766, 573);
-		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\jonas\\Downloads\\RuneTerraMap.png"));
-		frame.getContentPane().add(lblNewLabel);
+		JLabel mapa = new JLabel("New label");
+		mapa.setBounds(170, 0, 766, 573);
+		mapa.setHorizontalAlignment(SwingConstants.CENTER);
+		mapa.setIcon(new ImageIcon("C:\\Users\\jonas\\Downloads\\RuneTerraMap.png"));
+		frame.getContentPane().add(mapa);
 		
 		JButton lblNewLabel_1 = new JButton("");
 		lblNewLabel_1.addActionListener(new ActionListener() {
@@ -214,11 +615,11 @@ public class Map {
 		label.setBounds(25, 453, 120, 100);
 		frame.getContentPane().add(label);
 		
-		JLabel lblNewLabel_4 = new JLabel("CHAMPIONS");
-		lblNewLabel_4.setFont(new Font("Kristen ITC", Font.BOLD, 20));
-		lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_4.setForeground(new Color(255, 255, 255));
-		lblNewLabel_4.setBounds(10, 20, 150, 31);
-		frame.getContentPane().add(lblNewLabel_4);
+		JLabel campeaoLabel = new JLabel("CHAMPIONS");
+		campeaoLabel.setFont(new Font("Kristen ITC", Font.BOLD, 20));
+		campeaoLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		campeaoLabel.setForeground(new Color(255, 255, 255));
+		campeaoLabel.setBounds(10, 20, 150, 31);
+		frame.getContentPane().add(campeaoLabel);
 	}
 }
