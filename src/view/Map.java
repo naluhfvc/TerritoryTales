@@ -68,11 +68,13 @@ public class Map {
 
 	    inicializarRegioesMapa();    
 	    
-	    JLabel mapa = new JLabel("New label");
+	    JLabel mapa = new JLabel("");
 	    mapa.setBounds(170, 0, 766, 573);
 	    mapa.setHorizontalAlignment(SwingConstants.CENTER);
-	    mapa.setIcon(new ImageIcon("C:\\Users\\jonas\\Downloads\\RuneTerraMap.png"));
-	    frame.getContentPane().add(mapa);
+	    URL iconURLMap = Map.class.getResource("/images/RuneTerraMap.jpeg");
+	    if (iconURLMap != null) {
+	    	mapa.setIcon(new ImageIcon(iconURLMap));
+	    }
 	    
 	    JButton lblNewLabel_1 = new JButton("");
 	    lblNewLabel_1.addActionListener(e -> mapController.selecionarJogador(TipoPersonagem.SONNA));
@@ -104,6 +106,8 @@ public class Map {
 	    campeaoLabel.setForeground(new Color(255, 255, 255));
 	    campeaoLabel.setBounds(10, 10, 150, 31);
 	    frame.getContentPane().add(campeaoLabel);
+
+	    frame.getContentPane().add(mapa);
 	}
 	
 	private void inicializarRegioesMapa() {
