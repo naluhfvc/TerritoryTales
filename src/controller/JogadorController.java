@@ -1,31 +1,31 @@
 package controller;
 
-import model.Jogador;
-import model.TipoPersonagem;
+import dto.JogadorDTO;
+import model.EPersonagem;
+import services.JogadorService;
 
 public class JogadorController {
-	private Jogador jogador;
-	
-	public JogadorController(TipoPersonagem tipoPersonagem)
-	{
-		jogador = new Jogador(tipoPersonagem);
-	}
-	
-	public void incrementarPontuacao() {
-		jogador.setPontuacao(jogador.getPontuacao() + 1);
+    private JogadorService jogadorService;
+    private PontuacaoController pontuacaoController;
+
+    public JogadorController(PontuacaoController pontuacaoController) {
+        this.jogadorService = new JogadorService();
+        this.pontuacaoController = pontuacaoController;
     }
 
-    public void decrementarPontuacao() {
-        if (jogador.getPontuacao() > 0) {
-        	jogador.setPontuacao(jogador.getPontuacao() - 1);
-        }
+    public void selecionarJogador(EPersonagem personagem) {
+        jogadorService.selecionarJogador(personagem);
     }
 
-    public int getPontuacao() {
-        return jogador.getPontuacao();
+    public JogadorDTO getJogadorSelecionado() {
+        return jogadorService.getJogadorSelecionado();
     }
 
-    public TipoPersonagem getPersonagem() {
-        return jogador.getPersonagem();
+    public JogadorDTO[] getJogadores() {
+        return jogadorService.getJogadores();
+    }
+
+    public void limparJogadorSelecionado() {
+        jogadorService.limparJogadorSelecionado();
     }
 }
